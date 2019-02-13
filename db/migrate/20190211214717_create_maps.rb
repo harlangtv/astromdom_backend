@@ -4,7 +4,7 @@ class CreateMaps < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :size
       t.integer :move_allowance
-      t.boolean :layout, array: true, default: []
+      t.integer :layout, array: true, default: []
 
       t.timestamps
     end

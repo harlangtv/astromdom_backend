@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_02_11_214717) do
     t.string "name"
     t.integer "size"
     t.integer "move_allowance"
-    t.boolean "layout", default: [], array: true
+    t.integer "layout", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
